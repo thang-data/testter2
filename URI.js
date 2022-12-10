@@ -1,7 +1,7 @@
 const isDevelopmentMode = process.env.MODE === "DEV";
 
 const clientURL = isDevelopmentMode
-	? "https://sc-media.netlify.app/"
-	: [""];
+	? "http://localhost:3003"
+	: ["https://sc-media.netlify.app/", "https://fb-clone-frontend.vercel.app"];
 
 module.exports = { clientURL };
